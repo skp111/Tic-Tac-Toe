@@ -10,10 +10,10 @@ h1{
     font-size: 6vmin;
 }
 .choice{
-    font-size: 5vmin;
+    font-size: 6vmin;
 }
 .choice button{
-    padding: 0 5px;
+    padding: 5px 10px;
 }
 #btn{
     background-color: transparent;
