@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: navy;
+    height: 10vh;
+    line-height: 10vh;
+    color: white;
+    font-size: 6vmin;
+}
+.choice{
+    font-size: 5vmin;
+}
+.choice button{
+    padding: 0 5px;
+}
+#btn{
+    background-color: transparent;
+    border: none;
+}
+.box{
+    height: 15vmin; 
+    width: 15vmin;
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.4);
+}
+.rstbtn{
+    font-size: 5vmin;
+    background-color: navy;
+    color: white;
+}
+@media (max-width:991px){
+    .box{
+        height: 25vmin; 
+        width: 25vmin;
+    }
+}
