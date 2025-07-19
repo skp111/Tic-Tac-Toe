@@ -55,6 +55,8 @@ boxes.forEach((box) => {
             alert('Please choose X or O first!');
             return
         }
+        for(let turn of turns)
+            turn.disabled = true
         if (box.innerText !== '')
             return
         // or box.disabled = true
